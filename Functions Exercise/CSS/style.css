@@ -1,0 +1,70 @@
+.header {
+    color: white;
+    background-color: #6e6eec;
+}
+
+.header p {
+    padding: 5px;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.footer{
+    color: white;
+    background-color: #6e6eec;
+    text-align: center;
+
+}
+
+.footer p{
+    padding: 5px;   
+    width: 100%;
+    font-size: 12px;
+}
+
+.content {
+    box-shadow: 0px 0px 6px -2px;
+    padding: 10px;
+}
+
+
+
+.result-area {
+    min-height: 20px;
+    margin-top: 10px;
+}
+
+.deleteProject{
+    float: right;
+    background-color: rgb(122, 10, 10);
+    color: white;
+    margin: 0px 2px 0px;
+    border-radius: 3px;
+    cursor: default;
+    
+}
+.EditProject, .UpdateProject{
+    float: right;
+    background-color: rgb(122, 64, 10);
+    color: white;
+    margin: 0px;
+    border-radius: 3px;
+    cursor: default;
+}
+
+.UpdateProject p,.EditProject p,.deleteProject p{
+    padding: 2px 6px;
+    margin: 0;
+}
+li{
+    list-style: none;
+    margin: 10px 0px 10px 0px;
+    color: #ecf0f1;
+    background-color: #2980b9;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 100;
+    width: 80%;
+    min-height: 25px;
+}

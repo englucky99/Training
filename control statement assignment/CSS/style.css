@@ -1,0 +1,38 @@
+.header {
+    color: white;
+    background-color: #6e6eec;
+}
+
+.header p {
+    padding: 5px;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.footer{
+    color: white;
+    background-color: #6e6eec;
+    text-align: center;
+
+}
+
+.footer p{
+    padding: 5px;   
+    width: 100%;
+    font-size: 12px;
+}
+
+.content {
+    box-shadow: 0px 0px 6px -2px;
+    padding: 10px;
+}
+
+.result {
+    color: green;
+}
+
+.result-area {
+    min-height: 20px;
+    margin-top: 10px;
+}
