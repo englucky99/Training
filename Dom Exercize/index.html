@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom exercise App</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+</head>
+<body>
+    <div class="header">
+       <p>Dom exercise App</p>
+    </div>
+    <div class="content">
+       <div class="inline-content">
+           <div>
+            <button onclick="handlers.displayProjects();">View Project List</button>
+           
+            <button onclick="handlers.checkProject();">Check</button>
+           </div>
+           <br/>
+           <div>
+            <input type="number" id="id"  placeholder="Enter project id">
+            <input type="text" id="addProjectText"  placeholder="Enter project Name">
+            <input type="text" id="addProjectDesc"  placeholder="Enter project Description">
+            <input type="text" id="addProjectStatus" style="width: 256px;"  placeholder="Enter project status (Complete/In progress)">           
+            <button onclick="handlers.addProject();">Add Project</button>
+        </div>
+            
+           
+       </div>
+       <div class="result-area" id="result">          
+       </div>
+       <div id="checkResult">
+
+       </div>
+    </div>
+  
+    <div class="footer">
+        <p>
+            Created by Maharshi
+        </p>
+     
+    </div>
+    
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
